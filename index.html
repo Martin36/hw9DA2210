@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homework 9 </title>
+<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+<section class="top">
+  <button onclick="redVibes()">Red Vibes!</button>
+  <button onclick="main()">Cerebral Cereal!</button>
+  <button onclick="studentDivision()">Student Division</button>
+</section>
+
+<section id="red-vibes">
+  <div style="display: inline-block">
+    <h1>Red vibes</h1>
+    <ul id="cardList"></ul>
+    <p id="announcement"></p>  
+  </div>
+  <div style="display: inline-block">
+    <h1>My Cash</h1>
+    <p id="cash"></p>
+  </div>  
+</section>
+
+<section id="cerebral-cereal"> 
+  <p>Number of packets bought: <span id="nr-of-packets"></span></p>
+  <p id="johan"></p>
+  <p id="henrik"></p>
+  <p id="average"></p>
+</section>
+
+<section id="student-division">
+  <table id="results">
+    <tr>
+      <th>Try</th>
+      <th>Group 1</th>
+      <th>Group 2</th>
+    </tr>
+  </table>
+</section>
+
+<script src="redVibes.js"></script>
+<script src="cerebralCereal.js"></script>
+<script src="studentDivision.js"></script>
+
+</body>
+</html>
